@@ -1,0 +1,35 @@
+{
+  "name": "gridsome-remark-youtube-placeholder",
+  "version": "1.0.0",
+  "description": "Gridsome remark plugin to embed youtube placeholders in markdown, to avoid cookies and accessability issues.",
+  "main": "index.js",
+  "author": "Marcus Raevmann Brown",
+  "homepage": "https://github.com/Healios/remark-youtube-placeholder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Healios/remark-youtube-placeholder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Healios/remark-youtube-placeholder/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "remark",
+    "gridsome",
+    "gridsome-plugin",
+    "markdown",
+    "wcag",
+    "a11y",
+    "accessability",
+    "cookie-free",
+    "no-cookies",
+    "youtube"
+  ],
+  "dependencies": {
+    "unist-util-visit": "1.4.0"
+  },
+  "files": [
+    "gridsome"
+  ]
+}
