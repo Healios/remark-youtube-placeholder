@@ -68,7 +68,7 @@ module.exports = (options) =>
 					if (options.imageSize != undefined)
 					{
 						imageSize = options.imageSize;
-						imageHtml = `<img src="${image}" style="margin-top: 0 !important; margin-bottom: 0 !important;" class="${imageCss}" width="${imageSize.width}" height="${imageSize.height}" role="presentation" alt="">`;
+						imageHtml = `<img src="${image}" style="margin-top: 0 !important; margin-bottom: 0 !important; width: ${imageSize.width}px; height: ${imageSize.height}px;" class="${imageCss}" width="${imageSize.width}" height="${imageSize.height}" role="presentation" alt="">`;
 					}
 					else
 						imageHtml = `<img src="${image}" style="margin-top: 0 !important; margin-bottom: 0 !important;" class="${imageCss}" role="presentation" alt="">`;

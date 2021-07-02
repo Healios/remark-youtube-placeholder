@@ -1,6 +1,6 @@
 {
   "name": "gridsome-remark-youtube-placeholder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gridsome remark plugin to embed youtube placeholders in markdown, to avoid cookies and accessability issues.",
   "main": "index.js",
   "author": "Marcus Raevmann Brown",

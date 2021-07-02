@@ -1,6 +1,6 @@
 {
   "name": "remark-youtube-placeholder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remark plugin to embed youtube placeholders in markdown, to avoid cookies and accessability issues.",
   "main": "dist/index.js",
   "scripts": {
