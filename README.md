@@ -11,6 +11,14 @@ npm i remark-youtube-placeholder --save-dev
 ```
 
 ## Configuration
+### Layout
+You can provide css for the layout of multiple youtube placholders in the same inline tag, via the **layoutCss** option.
+
+Example
+```js
+layoutCss: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+```
+
 ### Image
 You can provide css for the image via the **imageCss** option.
 
@@ -75,6 +83,7 @@ Note: You can also add extra css, like bottom margin, to space things out nicely
     cssClassToCenterPlaceholder: "w-full flex justify-center mb-6",
     cssClassToLeftAlignPlaceholder: "w-full flex justify-start mb-6",
     cssClassToRightAlignPlaceholder: "w-full flex justify-end mb-6",
+    layoutCss: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5",
     imageCss: "shadow-md",
     imageSize: { width: 800, height: 450, },
     titleCss: "pl-5 pt-3 text-white text-xl font-medium text-opacity-90",
@@ -104,6 +113,7 @@ module.exports = {
                 cssClassToCenterPlaceholder: "w-full flex justify-center mb-6",
                 cssClassToLeftAlignPlaceholder: "w-full flex justify-start mb-6",
                 cssClassToRightAlignPlaceholder: "w-full flex justify-end mb-6",
+                layoutCss: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5",
                 imageCss: "shadow-md",
                 imageSize: { width: 800, height: 450, },
                 titleCss: "pl-5 pt-3 text-white text-xl font-medium text-opacity-90",
@@ -139,6 +149,10 @@ Examples:
 or
 
 `youtube https://www.youtube.com/watch?v=Dry4P_hg-Ws title Marine biologist plays SUBNAUTICA BELOW ZERO image https://i.ytimg.com/vi/Dry4P_hg-Ws/maxresdefault.jpg alt Watch marine biologist plays subnautica on YouTube placement Center end\`
+
+or multiple
+
+`youtube https://www.youtube.com/watch?v=Dry4P_hg-Ws title Marine biologist plays SUBNAUTICA BELOW ZERO image https://i.ytimg.com/vi/Dry4P_hg-Ws/maxresdefault.jpg alt Watch marine biologist plays subnautica on YouTube placement Center end youtube https://www.youtube.com/watch?v=w20ioGg0QHk title image https://i.ytimg.com/vi/w20ioGg0QHk/maxresdefault.jpg alt Watch I became a Tea farmer on YouTube placement Center end`
 
 ```
 
