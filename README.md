@@ -162,7 +162,7 @@ or multiple
 
 This is how the placeholder should appear on the screen (obviously without the white border):
 
-<a href="https://www.youtube.com/watch?v=Dry4P_hg-Ws" target="_blank">
+<a href="https://www.youtube.com/watch?v=Dry4P_hg-Ws" target="_blank" rel="noopener noreferrer">
   <img src="Thumbnail example.gif" role="presentation" alt="">
 </a>
 
@@ -171,7 +171,7 @@ This is how the placeholder should appear on the screen (obviously without the w
 ```html
 <div class="w-full flex justify-start"> <!-- whatever css you've provided in alignment options. -->
 
-  <a style="position: relative;" href="https://www.youtube.com/watch?v=Dry4P_hg-Ws" target="_blank">
+  <a style="position: relative;" href="https://www.youtube.com/watch?v=Dry4P_hg-Ws" target="_blank" rel="noopener noreferrer">
     <span style="position: absolute !important; clip: rect(1px, 1px, 1px, 1px); width: 1px !important; height: 1px !important; padding: 0 !important; border: 0 !important; overflow: hidden; white-space: nowrap;">Go to youtube and watch video</span>
 
     <img src="https://i.ytimg.com/vi/Dry4P_hg-Ws/maxresdefault.jpg" style="margin-top: 0 !important; margin-bottom: 0 !important;" class="shadow-md" width="800" height="450" role="presentation" alt=""> <!-- class = whatever css you've provided via the imageCss option. -->

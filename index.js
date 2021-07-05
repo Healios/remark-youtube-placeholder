@@ -117,7 +117,7 @@ module.exports = (options) =>
 					if (title != null && title != "undefined" && title.length > 0)
 						titleHtml = `<div style="position: absolute; top: 0; left: 0; right: 0;"><p class="${titleCss}" style="margin-top: 0 !important; margin-bottom: 0 !important;">${title}</p></div>`;
 
-					youtubeHTML += `<a style="position: relative;" href="${youtube}" target="_blank"><span style="position: absolute !important; clip: rect(1px, 1px, 1px, 1px); width: 1px !important; height: 1px !important; padding: 0 !important; border: 0 !important; overflow: hidden; white-space: nowrap;">${alt}</span>${imageHtml}${overlayHtml}${titleHtml}</a>`;
+					youtubeHTML += `<a style="position: relative;" href="${youtube}" target="_blank" rel="noopener noreferrer"><span style="position: absolute !important; clip: rect(1px, 1px, 1px, 1px); width: 1px !important; height: 1px !important; padding: 0 !important; border: 0 !important; overflow: hidden; white-space: nowrap;">${alt}</span>${imageHtml}${overlayHtml}${titleHtml}</a>`;
 				}
 				if (matches.length > 1) youtubeHTML += `</div>`;
 
